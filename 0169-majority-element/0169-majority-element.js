@@ -13,9 +13,9 @@ var majorityElement = function(nums) {
     for(var i = 1; i < nums.length; i++) {
         var prev = i-1;
         if(nums[prev] !== nums[i]) {
-            console.log("---doesn't equal---");
-            console.log(nums[prev] + " " + nums[i]);
-            console.log(count);
+            // console.log("---doesn't equal---");
+            // console.log(nums[prev] + " " + nums[i]);
+            // console.log(count);
             if(count > appearMoreThan) {
                 result = nums[i];
                 return result;
@@ -26,9 +26,9 @@ var majorityElement = function(nums) {
 
         if(nums[prev] === nums[i]) {
             count++;
-            console.log("---does equal---");
-            console.log(nums[prev] + " " + nums[i]);
-            console.log(count);
+            // console.log("---does equal---");
+            // console.log(nums[prev] + " " + nums[i]);
+            // console.log(count);
             if(count > appearMoreThan) {
                 result = nums[i]
                 return result;
