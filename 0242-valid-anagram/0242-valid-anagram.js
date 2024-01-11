@@ -4,7 +4,8 @@
  * @return {boolean}
  */
 var isAnagram = function(s, t) {
-// Solution 1:
+// Solution 1, using a map and counting the characters to see if the two strings match:
+    //Time complexity: O(s+t) = O(n). Space complexity: O(s) = O(n)
 //     if(s.length !== t.length) {
 //         return false;
 //     }
