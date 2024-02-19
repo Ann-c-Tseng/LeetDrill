@@ -20,9 +20,9 @@ var minEatingSpeed = function(piles, h) {
         //console.log("piles: " + piles[0] + " + hours: " + hours)
         
         if(hours <= h) { 
-            //If Koko CAN eat all the bananas under or at the time h
+            //If Koko CAN eat all the bananas UNDER or AT the time h
             //Then we know that at whatever k value mid is
-            //(or under that mid value) is where our solution lies.
+            //(OR less than that mid value) is where our solution lies.
             //Therefore binary search from left to right = mid now.
             right = mid;
         } else {
