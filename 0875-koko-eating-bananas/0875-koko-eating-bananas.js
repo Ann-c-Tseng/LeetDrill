@@ -31,7 +31,5 @@ var minEatingSpeed = function(piles, h) {
         }
     }
     
-    //If left is greater than or equal to the right, return the left value 
-    //which is the maller k than right k value
     return left;
 }
