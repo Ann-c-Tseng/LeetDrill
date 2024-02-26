@@ -8,7 +8,6 @@ var findMin = function(nums) {
     var res = nums[0];
 
     while(left <= right) {
-        var res;
         if(nums[left] < nums[right]) {
             //We know we reached the point where we have left
             //at the minimum element, when left pointer has
