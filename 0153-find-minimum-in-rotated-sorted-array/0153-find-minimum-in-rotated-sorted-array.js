@@ -2,6 +2,10 @@
  * @param {number[]} nums
  * @return {number}
  */
+
+//The key to this question lies in the fact that the minimum
+//value in this rotated sorted array will always come after
+//the maximum value in the array.
 var findMin = function(nums) {
     var left = 0;
     var right = nums.length - 1;
