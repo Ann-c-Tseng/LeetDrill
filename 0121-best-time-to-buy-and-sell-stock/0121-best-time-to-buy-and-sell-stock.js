@@ -3,25 +3,26 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-    //We can consider this problem similar to a sliding window algorithm,
-    //where we keep track of the sellPrice and the minPrice, 
-    //getting the max profit value comparing maximum profit previously recorded and the profit for this round
-    var maxProfit = 0;
-    var minPrice = prices[0];
-    var sellPrice;
-    var profit = 0;
-
-    for(var i = 1; i < prices.length; i++){
-        sellPrice = prices[i];
-        profit = sellPrice - minPrice;
-
-        //Compare past maxPrice value with profit of current round comparison
-        maxProfit = Math.max(maxProfit, profit)
-
-        //If our current sellPrice is a smaller value than the minPrice,
-        //increment minPrice. sellPrice pointer is always in front of the minPrice.
-        if(sellPrice < minPrice) minPrice = sellPrice
+    var l = 0;
+    var r = l+1;
+    var max = 0;
+    while(l < r && r < prices.length) {
+        var possibleMax = prices[r] - prices[l];
+        
+        if(possibleMax < 0) { 
+            //if possibleMax is negative, this
+            //means that right value is less than left, so we can
+            //move left and right up since we want the smallest
+            //possible left value.
+            l = l + 1;
+            r = l + 1;
+        } else {
+            if(possibleMax > max) {
+                max = possibleMax;
+            }
+            r = r + 1;
+        }
     }
-
-    return maxProfit;
+    
+    return max;
 };
