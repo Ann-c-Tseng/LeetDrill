@@ -33,14 +33,14 @@ var flip = function(t) {
         var rPtr = topPtr.right;
         
         topPtr.left = rPtr;
-        topPtr.right = null;
+        topPtr.right = null; //do not forget to assign null to the now empty branch
         
         flip(topPtr.left);
     } else if(topPtr && topPtr.left) {
         var lPtr = topPtr.left;
         
         topPtr.right = lPtr;
-        topPtr.left = null;
+        topPtr.left = null; //do not forget to assign null to the now empty branch
         
         flip(topPtr.right);
     }
