@@ -35,7 +35,7 @@ var flip = function(t) {
         flip(topPtr.left);
     } else if(topPtr && topPtr.left) {
         var lPtr = topPtr.left;
-        
+
         topPtr.right = lPtr;
         topPtr.left = null; //do not forget to assign null to the now empty branch
         
