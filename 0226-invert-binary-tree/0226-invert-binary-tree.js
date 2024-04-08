@@ -20,9 +20,6 @@ var flip = function(t) {
     if(topPtr && topPtr.right && topPtr.left) {
         var rPtr = topPtr.right;
         var lPtr = topPtr.left;
-        
-        console.log(rPtr.val)
-        console.log(lPtr.val)
     
         topPtr.left = rPtr;
         topPtr.right = lPtr;
