@@ -21,9 +21,11 @@ var check = function(p, q) {
     //Base cases
     if(!p && !q) { //reach the end of branch and have no differences
         return true;
-    } else if ((p) && (q) && (p.val !== q.val)) { //values are not equal in !null node
+    }
+    if((p) && (q) && (p.val !== q.val)) { //values are not equal in !null node
         return false;
-    } else if((!p && q) || (p && !q)) { //one side is null while the other isn't
+    }
+    if((!p && q) || (p && !q)) { //one side is null while the other isn't
         return false;
     }
     
