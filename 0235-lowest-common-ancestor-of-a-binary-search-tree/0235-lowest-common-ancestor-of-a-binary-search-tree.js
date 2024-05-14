@@ -19,7 +19,8 @@
 //to traverse down the right side for greater values. Similarly, left if p or q is less than the parent node.
 //And p or q can be a descendant of itself as well.
 
-//Time complexity: O(log n)
+//Time complexity: O(log n), in the worst case, visit a single node
+//per level, therefore the height of the tree (log n)
 var lowestCommonAncestor = function(root, p, q) {
     //move left
     if((root.val > p.val) && (root.val > q.val)) {
