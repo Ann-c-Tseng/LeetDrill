@@ -10,6 +10,10 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
+
+/* O(N) time complexity, depth first search and replacing at each
+level, all the nodes that are not the right most node.
+Dfs will end at the right most side of the tree in searching */
 var rightSideView = function(root, level = 0, levels = []) {
     const isBaseCase = root === null;
     if(isBaseCase) return levels;
