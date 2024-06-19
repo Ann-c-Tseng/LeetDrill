@@ -19,7 +19,6 @@ var kthSmallest = function(root, k) {
     var count = 0;
     
     function inorder(node) {
-        console.log(node)
         if(!node) return null;
         
         //Traverse left subtree
