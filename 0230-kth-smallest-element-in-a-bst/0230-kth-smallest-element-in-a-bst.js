@@ -12,15 +12,14 @@
  * @return {number}
  */
 
-/* 
-O(N) - worst case, visit all the nodes to find the maximum value which also is the kth smallest.
-
-Traverse the tree in-order.
+/*
+Time Complexity: O(N) - Use In-order traversal, go through the tree in order, and once we hit the kth smallest value, we return it. We use recursive in-order traversal, but Neetcode uses ITERATIVE in-order traversal, which also works.
 */
 var kthSmallest = function(root, k) {
     var count = 0;
     
     function inorder(node) {
+        console.log(node)
         if(!node) return null;
         
         //Traverse left subtree
@@ -30,7 +29,7 @@ var kthSmallest = function(root, k) {
         //Process current node
         count++;
         if(count === k) return node.val;
-
+        
         //Traverse right subtree
         return inorder(node.right);
     }
