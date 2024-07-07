@@ -18,6 +18,8 @@ var longestConsecutive = function(nums) {
         if(!set.has(n-1)) {
             var cur = n;
             var possibleMax = 1;
+
+            //See if following consecutive numbers exist
             while(set.has(cur+1)) {
                 possibleMax++;
                 cur++;
