@@ -18,7 +18,7 @@
     Fast and slow pointer, aka Floyd's tortois and the hare:
     Relative Speeds:
         The key insight is that the fast pointer moves twice as fast as the slow pointer.
-        As a result, the distance between them increases by one step during each iteration.
+        As a result, the distance between them decrease by one step during each iteration.
     Closing the Gap:
         Suppose the slow pointer is at position i and the fast pointer is at position j.
         The distance between them is j - i.
