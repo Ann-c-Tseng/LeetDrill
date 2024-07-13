@@ -3,10 +3,12 @@
  * @return {boolean}
  */
  /*
-
+ Time complexity: O(N) - worst case loop through all elements in s
+ Space complexity:  O(N) - the stack can end up storing the entirety of s characters (all opening brackets) 
+ 
  A valid parenthesis expression should have sub-expressions that are also valid. Knowing this, what if whenever we encounter a matching pair of parenthesis in the expression, we remove it from the expression? This way if our entire expression is valid, our final result would be an empty expression (almost a recursive approach here).
 
- The Stack data structure can come in handy here in representing the recursive structure of the problem. We can use it to process the expression from outwards to inwards.
+ The Stack data structure can come in handy here in representing the recursive structure of the problem. 
 
  1. Initialize stack 
  2. Process each bracket of the expression one at a time
