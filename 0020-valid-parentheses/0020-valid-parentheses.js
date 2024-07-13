@@ -36,6 +36,8 @@ var isValid = function(s) {
         }
 
         if(c === ")" || c === "]" || c === "}") {
+            //If the stack has nothing pushed into it, having 0 length
+            //then if we encounter a closing bracket, the openBracketStack[-1] is 'undefined' and will return false correctly.
             if(openBracketStack[openBracketStack.length-1] === mappings[c]){
                 openBracketStack.pop();
             } else {
