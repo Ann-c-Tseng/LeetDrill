@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0042-trapping-rain-water) |
 ## Stack
 |  |
@@ -65,9 +66,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0022-generate-parentheses) |
 | [1023-time-based-key-value-store](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1023-time-based-key-value-store) |
 ## Math
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0150-evaluate-reverse-polish-notation) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
