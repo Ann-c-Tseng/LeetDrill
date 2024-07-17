@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0287-find-the-duplicate-number) |
+| [0739-daily-temperatures](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0739-daily-temperatures) |
 ## Two Pointers
 |  |
 | ------- |
@@ -33,10 +34,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0739-daily-temperatures) |
 ## Hash Table
 |  |
 | ------- |
