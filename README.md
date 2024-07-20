@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0155-min-stack) |
 | [1023-time-based-key-value-store](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1023-time-based-key-value-store) |
+| [1708-design-parking-system](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1708-design-parking-system) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -86,4 +87,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0883-car-fleet](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0883-car-fleet) |
+## Simulation
+|  |
+| ------- |
+| [1708-design-parking-system](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1708-design-parking-system) |
+## Counting
+|  |
+| ------- |
+| [1708-design-parking-system](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1708-design-parking-system) |
 <!---LeetCode Topics End-->
