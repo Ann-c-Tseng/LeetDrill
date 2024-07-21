@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0287-find-the-duplicate-number) |
+| [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
 | [0739-daily-temperatures](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0883-car-fleet) |
 ## Two Pointers
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0146-lru-cache) |
+| [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
 | [1023-time-based-key-value-store](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1023-time-based-key-value-store) |
 ## Linked List
 |  |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0155-min-stack) |
+| [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
 | [1023-time-based-key-value-store](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1023-time-based-key-value-store) |
 | [1708-design-parking-system](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1708-design-parking-system) |
 ## Doubly-Linked List
@@ -93,9 +96,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
 | [1708-design-parking-system](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1708-design-parking-system) |
 ## Counting
 |  |
 | ------- |
 | [1708-design-parking-system](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1708-design-parking-system) |
+## Matrix
+|  |
+| ------- |
+| [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
 <!---LeetCode Topics End-->
