@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0146-lru-cache) |
 | [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0022-generate-parentheses) |
+| [0076-minimum-window-substring](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0076-minimum-window-substring) |
 | [1023-time-based-key-value-store](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1023-time-based-key-value-store) |
 ## Math
 |  |
@@ -106,4 +108,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
+## Sliding Window
+|  |
+| ------- |
+| [0076-minimum-window-substring](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0076-minimum-window-substring) |
 <!---LeetCode Topics End-->
