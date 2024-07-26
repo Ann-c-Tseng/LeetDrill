@@ -5,7 +5,11 @@
  */
 
  /*
-    Time complexity: O(N)
+    Time complexity: O(N) (where we have the window shrinking and expanding algorithm, going through s in linear time).
+    Space complexity: O(1) (constant space), as the additional memory used doesn’t depend on the input size. The algorithm efficiently maintains the sliding window without requiring any dynamically allocated data structures.
+    We initializes two maps: countT to store character frequencies of t, and window to track the current window substring in s.
+    By using a sliding window approach with two pointers, the algorithm efficiently traverses s and maintains a linear time complexity of O(n).
+    Iterate through each character in s. Expand the window by adding characters to window. If the character count in window is less than or equal to the count in countT, increment 'have' variable. While 'have' equals 'need' (i.e., all characters from t are in the window): Update the result if the current window size is smaller. Shrink the window by moving the left pointer. Adjust character counts in window. Move the right pointer to expand the window further. 
  */
 var minWindow = function(s, t) {
     const countT = new Map();
