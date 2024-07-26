@@ -3,6 +3,10 @@
  * @param {string} t
  * @return {string}
  */
+
+ /*
+    Time complexity: O(N)
+ */
 var minWindow = function(s, t) {
     const countT = new Map();
     const window = new Map();
