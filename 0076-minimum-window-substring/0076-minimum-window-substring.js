@@ -12,6 +12,7 @@ var minWindow = function(s, t) {
     const window = new Map();
 
     //Generate a character map for the string T, which we will use to compare with the window substrings in s later on.
+    //The initial loop that creates a character map for string t takes O(t.length) time. Since t is a fixed-size string (not dependent on the input size), we can consider this step as constant time, i.e., O(1)
     for(let i = 0; i < t.length; i++) {
         if(countT.get(t[i]) !== undefined) {
             countT.set(t[i], countT.get(t[i]) + 1);
@@ -33,7 +34,7 @@ var minWindow = function(s, t) {
     let resLen = Number.POSITIVE_INFINITY;
 
     //Go through the main two-pointer window algo:
-    //Iterate through every character in s
+    //Iterate through every character in s O(s) for outer loop.
     
     let rightPtr = 0;
     let leftPtr = 0;
@@ -54,6 +55,8 @@ var minWindow = function(s, t) {
         }
 
 
+        //Inner while loop shrinks the window, The outer while loop runs from rightPtr = 0 to rightPtr = s.length - 1.
+        //In each iteration, we process one character from the input string s. Since we process each character exactly once, the time complexity for this part is O(s). The inner loop runs when the condition have === need is met. It doesn’t necessarily iterate over all elements from leftPtr to rightPtr. Instead, it adjusts the window by moving the left pointer (leftPtr) and updating the character counts.The total number of iterations of the inner loop across all outer loop iterations is proportional to the length of the input string s.Therefore, the time complexity for this part is also O(n). In summary, the sliding window algorithm in your case maintains a linear time complexity of O(n) due to its efficient traversal of the input string. Nested loops can indeed lead to O(n^2), but here, the inner loop’s behavior ensures that we avoid that quadratic complexity.
         while (have === need) {
             let sizeOfWindow = rightPtr - leftPtr + 1;
             if (sizeOfWindow < resLen) {
