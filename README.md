@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0146-lru-cache) |
 ## Bit Manipulation
@@ -121,9 +122,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0239-sliding-window-maximum) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0023-merge-k-sorted-lists) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
