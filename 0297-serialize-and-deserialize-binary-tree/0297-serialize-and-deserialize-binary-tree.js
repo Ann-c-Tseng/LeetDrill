@@ -6,6 +6,17 @@
  * }
  */
 
+ /*
+    Time-complexity: O(N) - Both functions traverse through N nodes at most once.
+    Space-complexity: O(N) - Both functions we keep the entire tree of N nodes.
+    Go through the tree with preOrder traversal, and add to an ARRAY. If there
+    is a null node, push '@' into the array as a null symbol. Make the array into
+    a comma separated list using .join(",").
+    In deserialize, split(",") the array and use preOrder traversal again to build
+    up the tree. While going through the array, shift() can grab from the front of array.
+    RECURSION TAKES CARE OF the node ordering when placing into tree.
+ */
+
 /**
  * Encodes a tree to a single string.
  *
@@ -61,6 +72,7 @@ var deserialize = function(data) {
                 //Get the needed data for the current node
                 let newNode = new TreeNode(value);
 
+                //Get new node attached to its left and right children
                 newNode.left = preOrderTraversal();
                 newNode.right = preOrderTraversal();
 
