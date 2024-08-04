@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0155-min-stack) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
 | [1023-time-based-key-value-store](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1023-time-based-key-value-store) |
 | [1708-design-parking-system](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1708-design-parking-system) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0076-minimum-window-substring) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1023-time-based-key-value-store](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1023-time-based-key-value-store) |
 ## Math
 |  |
@@ -144,12 +146,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
 <!---LeetCode Topics End-->
