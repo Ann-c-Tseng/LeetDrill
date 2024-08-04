@@ -17,10 +17,8 @@ Deserialize - Go through the array and also use the queue to attach left and rig
 
 var serialize = function(root) {
     if(!root) return "@";//given an empty tree []
-
     const queue = [root];
     const result = [];
-
     while(queue.length > 0) {
         const node = queue.shift(); //Pull from the front of the queue to move through tree level-by-level
         if(node) {
@@ -33,19 +31,15 @@ var serialize = function(root) {
     }
     return result.join(",");
 }
-
 var deserialize = function(data) {
     if(data === "@") return null; //Given tree is empty
-
     const dataArray = data.split(",");
-
     const root = new TreeNode(dataArray[0]);
     const queue = [root];
     let counter = 1;
 
     while(queue.length > 0) {
         const node = queue.shift();
-
         //Go through left and right child, add to current node.
         if(dataArray[counter] !== "@") {
             node.left = new TreeNode(dataArray[counter]);
@@ -58,7 +52,6 @@ var deserialize = function(data) {
         }
         counter++;
     }
-
     return root;
 }
 
