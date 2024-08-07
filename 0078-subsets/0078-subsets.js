@@ -4,12 +4,12 @@
  */
 
  /*
-Time-complexity:The number of subsets an array has is 2^n, where n is the amount of elements in the array.
-Space-complexity:
+Time-complexity: O(2^N * N) - The number of subsets an array has is 2^n. The backtracking function runs in the worst case n iterations.
+Space-complexity: O(N) - the curr array is modified in-place during backtracking, and can go up to n elements.
 Explanation:
 Consider we go from subsets of length 0 to n. A subset can be of k length.
 If our curr array that keeps track of a single subset equals to k our subset length, we add it to the output and return.
-We backtrack to use the next integers to complete the other combinations of length k, pop after backtracking.
+We backtrack to use the next integers to complete the other combinations of length k, pop to backtrack.
  */
 var subsets = function(nums) {
     let output = [];
