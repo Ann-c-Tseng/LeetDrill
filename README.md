@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0004-median-of-two-sorted-arrays) |
+| [0039-combination-sum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0042-trapping-rain-water) |
 | [0078-subsets](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0084-largest-rectangle-in-histogram) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0022-generate-parentheses) |
+| [0039-combination-sum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0078-subsets) |
 ## Sorting
 |  |
