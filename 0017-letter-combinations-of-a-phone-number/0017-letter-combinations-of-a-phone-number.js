@@ -2,6 +2,13 @@
  * @param {string} digits
  * @return {string[]}
  */
+ /*
+Time-complexity: O(4^N * N) - The worst-case is when the input is only 7s and 8s. We have to explore 4 additional path for every digit and each combo in the worst case can costs up to N to build the combination. 
+Space-complexity: O(N) - Space occupied by the recursion call stack. Go as deep as the number of digits in the input. Hashmap is O(1).
+Backtracking:
+Get the current digit, and the array corresponding to that digit.
+For every letter in the array, add to the combo at that position. Call backtrack and continue down the path with upcoming positions and digits. Pop afterwards.
+ */
 var letterCombinations = function(digits) {
     //Map out the digit to an array of its corresponding letters
     const phoneMap = {
@@ -17,11 +24,9 @@ var letterCombinations = function(digits) {
 
     const output = [];
 
-    //"235"
-    //[] [a] [adj] [adk] [adl] [aej] [aek] [ael] [afj] [afk] [afl]
-    //We are popping letters based on position
     var backtrack = function(combo, idx) {
-        //Base case
+        //Base cases: if digits is empty, return []
+        //Otherwise if digits.length is the combo, we can add to output and return.
         if(digits === "") {
             return [];
         }
@@ -32,7 +37,8 @@ var letterCombinations = function(digits) {
             return;
         }
 
-        //At this button in the combo, we need to try every character in that position
+        //Get the current digit, and the array corresponding to that digit.
+        //For every letter in the array, add to the combo, backtrack with the combo and next letter in the phone number
         let curDigit = digits.charAt(idx);
         let letterArr = phoneMap[curDigit];
 
