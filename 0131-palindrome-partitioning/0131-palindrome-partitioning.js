@@ -19,9 +19,6 @@ var partition = function(s) {
             return;
         }
 
-        //Grab the current substring which we want to check if it's a palindrome.
-        //Our end index is used to see where the left over substring begins.
-        //We need to partition at every index until we reach the end of the string.
         for(let leftoverStartIdx = partitionIdx + 1; leftoverStartIdx <= s.length; leftoverStartIdx++) {
             let substring = s.slice(partitionIdx, leftoverStartIdx);
             if(isPalindrome(substring)) {
