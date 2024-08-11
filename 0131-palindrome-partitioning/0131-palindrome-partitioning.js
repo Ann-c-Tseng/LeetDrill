@@ -3,8 +3,12 @@
  * @return {string[][]}
  */
  /*
-
-
+Time complexity: O(2^N * N) - For each character in the string, it can either be a part of a new partition or continue the current path. Branching factor is therefore 2 at each step O(2^N). For each substring, isPalindrome is called and worst case takes O(N) due to the length of the substring.
+Space complexity: O(N) - space used to store the recursive stack. E.g. for s= "aaa", max recursive stack depth is 3 which equals to n (2^3 = 8 tree nodes/calls - editorial diagram with 8 nodes and depth of 3).
+Return a valid path if that path's number of characters now equals s.length.
+For the backtracking: 
+Use a forloop to keep track of where the left over start index begins. Grab the current substring to check if it is a palindrome. 
+We need to partition at every index until we reach the end of the string.
  */
 var partition = function(s) {
     var backtrack = function(partitionIdx, path) {
@@ -16,12 +20,13 @@ var partition = function(s) {
         }
 
         //Grab the current substring which we want to check if it's a palindrome.
-        //Grab the left over substring
-        for(let end = partitionIdx + 1; end <= s.length; end++) {
-            let substring = s.slice(partitionIdx, end);
+        //Our end index is used to see where the left over substring begins.
+        //We need to partition at every index until we reach the end of the string.
+        for(let leftoverStartIdx = partitionIdx + 1; leftoverStartIdx <= s.length; leftoverStartIdx++) {
+            let substring = s.slice(partitionIdx, leftoverStartIdx);
             if(isPalindrome(substring)) {
                 path.push(substring);
-                backtrack(end, path); //remaining string starting index is now at end.
+                backtrack(leftoverStartIdx, path);
                 path.pop();
             }
         }
