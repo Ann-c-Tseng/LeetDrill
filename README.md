@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0287-find-the-duplicate-number) |
 | [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
+| [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0883-car-fleet) |
 ## Two Pointers
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0200-number-of-islands) |
 | [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
+| [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
 ## Sliding Window
 |  |
 | ------- |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0200-number-of-islands](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
 ## Binary Tree
 |  |
 | ------- |
@@ -186,8 +189,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
