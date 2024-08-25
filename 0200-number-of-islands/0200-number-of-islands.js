@@ -4,8 +4,9 @@
  */
  /*
 Time-Complexity: O(M*N) - Worst case is if we traverse the entire grid for every cell. M = number of rows. N = number of columns
-Space-Complexity: O(M*N) - The grid map can be filled with lands and DFS goes M*N deep
-Using breadth-first search, we can look at a single row column positon and iterate checking it's adjacent cells. If its adjacent cells are in bounds of the board, is a "1", and has not been visited, we can safely add it to our bfs (iterative) queue and add it to our set as a template literal string/tuple. After we search through all the cells of a single island, we exit a bfs recursive call to increment our island count. Return final island count.
+Space-Complexity: O(M*N) - The grid map can be filled with lands and BFS goes M*N deep
+Using breadth-first search, we can look at a single row column positon and iterate checking it's adjacent cells. If its adjacent cells are in bounds of the board, is a "1", and has not been visited, we can safely 
+add it to our bfs (iterative) queue and add it to our set as a template literal string/tuple. After we search through all the cells of a single island, we exit a bfs recursive call to increment our island count. Return final island count.
  */
 var numIslands = function(grid) {
     if(!grid || grid.length === 0) {
