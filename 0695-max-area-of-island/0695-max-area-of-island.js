@@ -5,13 +5,14 @@
  /*
 Time-complexity: O(M*N) - Worst case is if we traverse every cell in the grid. M = number of rows. N = number of columns. 
 Space-complexity: O(M*N) - The grid map can be filled with lands completely, and the BFS queue (where the entire grid is 1 large island) or visit Set can contain every single cell position filling it both up to M*N elements.
-Using breadth-first-search, we look at the cells in the grid and consider its adjacent four neighbours. For its neighbours which we have not visited and which is a land (1), we add it to the BFS queue and mark it as visited. We go through all four direction neighbours of the current cell we are looking at. We continue to use the single BFS function to go through a single island and its neighbours, incrementing max as we go. For every island mass, we compare it to the old max to find the ultimate maximum island size before returning.
+Using breadth-first-search, we look at the cells in the grid and consider its adjacent four neighbours. For its neighbours which we have not visited and which is a land (1), we add it to the BFS queue and mark it as visited. 
+We go through all four direction neighbours of the current cell we are looking at. We continue to use the single BFS function to go through a single island and its neighbours, incrementing max as we go. For every island mass, 
+we compare it to the old max to find the ultimate maximum island size before returning.
  */
 var maxAreaOfIsland = function(grid) {
     if(!grid || grid.length === 0) {
         return 0;
     }
-
     const rows = grid.length;
     const cols = grid[0].length;
     const visit = new Set();
@@ -50,10 +51,8 @@ var maxAreaOfIsland = function(grid) {
                 }
             }
         }
-
         return islandSize;
     }
-
     let max = 0;
     for(let r = 0; r < rows; r++) {
         for(let c = 0; c < cols; c++) {
