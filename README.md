@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0883-car-fleet) |
+| [1036-rotting-oranges](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1036-rotting-oranges) |
 ## Two Pointers
 |  |
 | ------- |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0286-walls-and-gates](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0286-walls-and-gates) |
 | [0348-design-tic-tac-toe](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0348-design-tic-tac-toe) |
 | [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1036-rotting-oranges) |
 ## Sliding Window
 |  |
 | ------- |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0286-walls-and-gates](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Ann-c-Tseng/LeetDrill/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
