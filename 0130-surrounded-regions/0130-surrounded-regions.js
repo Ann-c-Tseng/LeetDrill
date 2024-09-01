@@ -64,7 +64,7 @@ var solve = function(board) {
 
  /*
 Time-complexity: O(M * N) - For all three phases, we visit each cell at most once.
-Space-complexity: O(M * N) 
+Space-complexity: O(M * N) - The queue when dealing with a densely populated grid of Os can hold up to a large number of cells proportional to the cells in the grid.
 Breadth-First Search: 1. Use queue to explore all O cells connected to the border and make it T.
 2. Then for all left over regions with Os, we know they are not boarder regions and can be captured into Xs. 
 3. Convert any T cells which represent boarder regions into Os.
