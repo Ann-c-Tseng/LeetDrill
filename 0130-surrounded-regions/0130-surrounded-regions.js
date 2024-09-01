@@ -73,10 +73,8 @@ var solve = function(board) {
     if(board === null || board.length === 0) {
         return;
     }
-
     const rows = board.length;
     const cols = board[0].length;
-
     var bfsCapture = function(r, c) {
         const q = [];
         q.push([r, c]);
@@ -86,11 +84,9 @@ var solve = function(board) {
 
         while(q.length > 0) {
             const [x,y] = q.shift();
-            
             for(const [dx, dy] of directions) {
                 const newX = x + dx;
                 const newY = y + dy;
-
                 //If neighbor is within bounds and is an "O", we can push it to the queue and set it to T.
                 if(newX >= 0 && newX < rows && newY >= 0 && newY < cols && board[newX][newY] === "O") {
                     q.push([newX, newY]);
@@ -99,7 +95,6 @@ var solve = function(board) {
             }
         }
     }
-
     //1. BFS: Capture all regions connected to the border (O -> T)
     for(let i = 0; i < rows; i++) {
         for(let j = 0; j < cols; j++) {
@@ -108,7 +103,6 @@ var solve = function(board) {
             }
         }
     }
-
     //2. For all nonboarder regions, flip those Os to Xs.
     //3. Flip all the Ts (border regions) back to Os
     for(let k = 0; k < rows; k++) {
