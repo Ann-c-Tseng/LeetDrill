@@ -41,6 +41,12 @@ var upsideDownBinaryTree = function(root) {
 };
 */
 
+/* Time-complexity: O(N) - go through each node at most once
+Space-complexity: O(1) - rotating tree in place
+Recursively call dfs on the left child of the tree, continuing the call until it reaches the left most node.
+From there we connect left node's right pointer to parent, and left node's left pointer to parent's right child
+return back the final tree. 
+*/
 var upsideDownBinaryTree = function(root) {
     if(!root || (!root.left && !root.right)) {
         return root;
@@ -55,7 +61,7 @@ var upsideDownBinaryTree = function(root) {
         node.left.right = node;
         node.left.left = node.right;
         node.left = node.right = null;
-        return rotatedLeft;
+        return rotatedLeft; //The function returns the new root of the transformed tree, which is the leftmost node of the original tree
     }
 
     return dfs(root);
