@@ -10,6 +10,8 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */
+ 
+/*
 var upsideDownBinaryTree = function(root) {
     let newTree = root;
     
@@ -37,3 +39,24 @@ var upsideDownBinaryTree = function(root) {
     }
     return newTree;
 };
+*/
+
+var upsideDownBinaryTree = function(root) {
+    if(!root || (!root.left && !root.right)) {
+        return root;
+    }
+
+    var dfs = function(node) {
+        if(!node.left) {
+            return node;
+        }
+
+        let rotatedLeft = dfs(node.left);
+        node.left.right = node;
+        node.left.left = node.right;
+        node.left = node.right = null;
+        return rotatedLeft;
+    }
+
+    return dfs(root);
+}
